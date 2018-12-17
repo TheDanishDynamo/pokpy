@@ -1,0 +1,2 @@
+# pokpy
+Poker w Python
