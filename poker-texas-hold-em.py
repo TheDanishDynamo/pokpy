@@ -1,9 +1,9 @@
 import random
 
-hearts = ["H"+str(card) for card in range(14)]
-diamonds = ["D"+str(card) for card in range(14)]
-clubs = ["C"+str(card) for card in range(14)]
-spades = ["S"+str(card) for card in range(14)]
+hearts = ["H"+str(card+1) for card in range(14)]
+diamonds = ["D"+str(card+1) for card in range(14)]
+clubs = ["C"+str(card+1) for card in range(14)]
+spades = ["S"+str(card+1) for card in range(14)]
 deck_sorted = hearts + diamonds + clubs + spades
 print(deck_sorted)
 deck_randomized = random.sample(deck_sorted, len(deck_sorted))
@@ -34,6 +34,7 @@ deck_randomized.remove(flop[0])
 deck_randomized.remove(flop[1])
 deck_randomized.remove(flop[2])
 print(len(deck_randomized))
+#todo: print % chance of winning for the hands at current stage (the flop w two hands)
 
 
 
