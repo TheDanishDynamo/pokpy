@@ -15,22 +15,22 @@ print(deck_shuffled)
 
 # draw the first card - player 1
 player_1_card_1 = 'D8' 
-player_1_card_1 = random.choice(deck_shuffled)
+#player_1_card_1 = random.choice(deck_shuffled)
 deck_shuffled.remove(player_1_card_1)
 
 # draw the first card - player 2
 player_2_card_1 = 'H1' 
-player_2_card_1 = random.choice(deck_shuffled)
+#player_2_card_1 = random.choice(deck_shuffled)
 deck_shuffled.remove(player_2_card_1)
 
 # draw the second card - player 1
 player_1_card_2 = 'C9'
-player_1_card_2 = random.choice(deck_shuffled)
+#player_1_card_2 = random.choice(deck_shuffled)
 deck_shuffled.remove(player_1_card_2)
 
 # draw the second card - player 2
 player_2_card_2 = 'C11' 
-player_2_card_2 = random.choice(deck_shuffled)
+#player_2_card_2 = random.choice(deck_shuffled)
 deck_shuffled.remove(player_2_card_2)
 
 print("player 1",[player_1_card_1,player_1_card_2])
@@ -51,7 +51,7 @@ deck_shuffled.remove(flop_card_2)
 
 # draw the third card - flop
 flop_card_3 = 'H7' # 
-flop_card_3 = random.choice(deck_shuffled)
+#flop_card_3 = random.choice(deck_shuffled)
 deck_shuffled.remove(flop_card_3)
 
 print("flop",[flop_card_1,flop_card_2,flop_card_3])
@@ -72,3 +72,8 @@ print("player 2 strength - individual","Manual strength")
 print("commentary#1: player 1 has two kings very good w 2 players")
 print("commentary#2: player 2 has one pair, which is ok in a 2 player game, it could be a sneaker")
 
+# The Turn
+turn_card = 'C10' # 
+#turn_card = random.choice(deck_shuffled)
+deck_shuffled.remove(turn_card)
+print("turn card", turn_card)
