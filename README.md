@@ -62,6 +62,9 @@ deck_randomized = random.sample(deck_sorted, len(deck_sorted))
 
  [TODO: Simulate some famous poker hands](https://www.doverdowns.com/online-gaming/famous-poker-hands.php)
 
-
+# Notebook version of static game
+This is the static game version in jupyter / binder
+Probably not accessible since I haven't figured out how to share it... yet!
+https://hub.mybinder.org/user/thedanishdynamo-pokpy-twv0m77g/tree#notebooks
 
 

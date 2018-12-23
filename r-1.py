@@ -77,3 +77,5 @@ turn_card = 'C10' #
 #turn_card = random.choice(deck_shuffled)
 deck_shuffled.remove(turn_card)
 print("turn card", turn_card)
+
+
