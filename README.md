@@ -47,8 +47,11 @@ http://www.wsop.com/poker-hands/
 ## R-1 Calculate rankings - Technical Specification
 
 ### POC - Tracer Bullet
-Create a mini deck with 8 cards; two suits A and B, each with ranks 1,2,3,4. The 1 is called Ace and counts as a 1 or an Ace (virtually A5 or B5)
+Create a mini deck with 8 cards; two suits A and B, each with ranks 1,2,3,4. The 1 is called Ace and counts as a 1 or an Ace (A5 or B5)
 deck_sorted = ["A1","A2","A3","A4","B1","B2","B3","B4"]
+deck_randomized = random.sample(deck_sorted, len(deck_sorted))
+ e.g. ```['B4', 'A4', 'A2', 'B3', 'A1', 'B2', 'B1', 'A3']```
+
 
 
 
